@@ -7,7 +7,7 @@ class Skybridge < Formula
 
   on_arm do
     url "https://github.com/billlza/Skybridge-Compass/releases/download/skybridge-cli-v1.0.0/skybridge-aarch64-apple-darwin.tar.gz"
-    sha256 "69ca51b8c302a48612d890d0586e3605f1d3aadc60a6a5611d197f877395d39b"
+    sha256 "9c4c7b58da24c2689310434f4026151e1d72b55ac258b6e69aa743c0a7a3fc6a"
   end
 
   def install
