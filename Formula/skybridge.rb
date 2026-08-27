@@ -1,13 +1,13 @@
 class Skybridge < Formula
   desc "SkyBridge CLI headless operator surface"
   homepage "https://github.com/billlza/Skybridge-Compass"
-  version "0.2.3"
+  version "0.3.1"
 
   depends_on arch: :arm64
 
   on_arm do
-    url "https://github.com/billlza/Skybridge-Compass/releases/download/skybridge-cli-v0.2.3/skybridge-aarch64-apple-darwin.tar.gz"
-    sha256 "b86d69242065548d09f5d1d41eda1e391cb372dea038c9370337f55562257eee"
+    url "https://github.com/billlza/Skybridge-Compass/releases/download/skybridge-cli-v0.3.1/skybridge-aarch64-apple-darwin.tar.gz"
+    sha256 "727e2d89b4f8fc41093aee600c14ea430a9aaa4df40d0873640ab3a7a0f6fa86"
   end
 
   def install
